@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orthodox Jewish Travel Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Orthodox Jewish Travel Planner</h1>
+    <p>Plan a worry‑free trip that respects Shabbat and holidays, finds Chabad centres and caters to your kosher needs.</p>
+  </header>
+  <div class="container">
+    <!-- Step 1: Trip details -->
+    <div id="step1" class="step active">
+      <h2>Step 1: Enter Trip Details</h2>
+      <form id="trip-form">
+        <label for="start-date">Start Date</label>
+        <input type="date" name="start-date" id="start-date" required>
+        <label for="end-date">End Date</label>
+        <input type="date" name="end-date" id="end-date" required>
+        <label for="destination">Destination</label>
+        <input type="text" name="destination" id="destination" placeholder="e.g. Vietnam" required>
+        <fieldset>
+          <legend>Activity Preferences (select as many as you like)</legend>
+          <div>
+            <input type="checkbox" id="pref-history" name="preferences" value="History">
+            <label for="pref-history">History</label>
+          </div>
+          <div>
+            <input type="checkbox" id="pref-culture" name="preferences" value="Culture">
+            <label for="pref-culture">Culture</label>
+          </div>
+          <div>
+            <input type="checkbox" id="pref-shopping" name="preferences" value="Shopping">
+            <label for="pref-shopping">Shopping</label>
+          </div>
+          <div>
+            <input type="checkbox" id="pref-adventure" name="preferences" value="Adventure">
+            <label for="pref-adventure">Adventure</label>
+          </div>
+          <div>
+            <input type="checkbox" id="pref-nature" name="preferences" value="Nature">
+            <label for="pref-nature">Nature</label>
+          </div>
+          <div>
+            <input type="checkbox" id="pref-architecture" name="preferences" value="Architecture">
+            <label for="pref-architecture">Architecture</label>
+          </div>
+          <div>
+            <input type="checkbox" id="pref-relaxation" name="preferences" value="Relaxation">
+            <label for="pref-relaxation">Relaxation</label>
+          </div>
+          <div>
+            <input type="checkbox" id="pref-hands" name="preferences" value="Hands‑on">
+            <label for="pref-hands">Hands‑on</label>
+          </div>
+          <div>
+            <input type="checkbox" id="pref-museum" name="preferences" value="Museum">
+            <label for="pref-museum">Museum</label>
+          </div>
+          <div>
+            <input type="checkbox" id="pref-cruise" name="preferences" value="Cruise">
+            <label for="pref-cruise">Cruise</label>
+          </div>
+        </fieldset>
+        <label for="kosher">Kosher Meals Preference</label>
+        <select name="kosher" id="kosher">
+          <option value="daily">Every Day</option>
+          <option value="shabbat">Shabbat Only</option>
+        </select>
+        <label for="travelers">Number of Travelers</label>
+        <input type="number" name="travelers" id="travelers" min="1" value="1">
+        <label for="occasion">Occasion (optional)</label>
+        <input type="text" name="occasion" id="occasion" placeholder="e.g. Honeymoon, Family Vacation">
+        <button type="submit">Next: Choose Activities</button>
+      </form>
+    </div>
+    <!-- Step 2: Activity selection -->
+    <div id="step2" class="step">
+      <h2>Step 2: Select Your Activities</h2>
+      <p>Select the experiences you’re interested in. We’ll use your choices to build a balanced itinerary.</p>
+      <form id="activities-form">
+        <div id="activities-list" class="activity-list"></div>
+        <button type="submit">Next: View Itinerary</button>
+      </form>
+    </div>
+    <!-- Step 3: Itinerary editing -->
+    <div id="step3" class="step">
+      <h2>Step 3: Your Planned Itinerary</h2>
+      <p>You can reorder activities within each day or move them to different days using the arrows.</p>
+      <div id="itinerary"></div>
+      <div id="itinerary-info"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

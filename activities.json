@@ -1,0 +1,74 @@
+[
+  {
+    "id": "war_remnants_museum",
+    "name": "War Remnants Museum (Ho Chi Minh City)",
+    "categories": ["History", "Culture"],
+    "description": "Museum established in 1975 to preserve artefacts and documents from the wars. It exhibits over 20,000 documents across themed galleries and outdoor displays【488322307848158†L104-L137】."
+  },
+  {
+    "id": "ben_thanh_market",
+    "name": "Ben Thanh Market (Ho Chi Minh City)",
+    "categories": ["Shopping", "Culture"],
+    "description": "Historic market whose current building was constructed in 1912–1914; its clock tower is an unofficial symbol of the city. Each gate specialises in different goods such as souvenirs, handicrafts, cosmetics and fresh produce【634257401154399†L53-L160】."
+  },
+  {
+    "id": "cu_chi_tunnels",
+    "name": "Cu Chi Tunnels (near Ho Chi Minh City)",
+    "categories": ["History", "Adventure"],
+    "description": "A 250 km network of hand‑carved tunnels used during the war as living quarters and supply routes, featuring multiple levels and booby‑traps【385733612428201†L116-L146】."
+  },
+  {
+    "id": "mekong_delta",
+    "name": "Mekong Delta Boat Tour", 
+    "categories": ["Nature", "Culture"],
+    "description": "Explore the water‑world of southern Vietnam where canals act as roads, pass through fruit orchards and villages, and witness floating markets like Cai Rang and Cai Be【587188844370200†L119-L166】【587188844370200†L390-L405】."
+  },
+  {
+    "id": "ba_na_hills",
+    "name": "Ba Na Hills & Golden Bridge (Da Nang)",
+    "categories": ["Nature", "Adventure"],
+    "description": "Mountain resort 30 km from Da Nang featuring the Golden Bridge held up by giant hands, French‑themed gardens, Linh Ung Pagoda and the world’s longest non‑stop cable car【859817668157794†L150-L179】."
+  },
+  {
+    "id": "hoi_an_old_town",
+    "name": "Hoi An Ancient Town", 
+    "categories": ["Culture", "Architecture"],
+    "description": "UNESCO‑listed historic trading port from the 15th–19th centuries with well‑preserved houses and the Japanese Covered Bridge【592679827815473†L242-L266】."
+  },
+  {
+    "id": "hoi_an_countryside",
+    "name": "Hoi An Countryside Ride", 
+    "categories": ["Nature", "Relaxation"],
+    "description": "Cycle through vegetable farms (Tra Que village) or ride basket boats through the coconut palm canals of Cam Thanh; experience rural life without visiting temples."
+  },
+  {
+    "id": "lantern_workshop",
+    "name": "Hoi An Lantern‑Making Workshop", 
+    "categories": ["Hands‑on", "Culture"],
+    "description": "Create your own silk lantern and learn about Hoi An’s traditional handicrafts in a small group workshop."
+  },
+  {
+    "id": "west_lake",
+    "name": "West Lake Walk (Hanoi)", 
+    "categories": ["Nature", "Relaxation"],
+    "description": "Stroll or cycle around Hanoi’s largest lake, which spans 500 ha with a 17 km shoreline【989600641087427†L593-L599】.  Visit the weekend Trinh Cong Son pedestrian street with kiosks and performances【989600641087427†L667-L681】."
+  },
+  {
+    "id": "ethnology_museum",
+    "name": "Vietnam Museum of Ethnology (Hanoi)", 
+    "categories": ["Culture", "Museum"],
+    "description": "Exhibits on Vietnam’s 54 ethnic groups, housed in a two‑storey drum‑shaped building with over 15,000 artefacts and rotating exhibitions【640416865779021†L55-L66】.  The outdoor area features full‑sized traditional houses such as Hmong stilt houses and Ede longhouses【640416865779021†L74-L88】.  Open Tuesday–Sunday 8:30 AM–5:30 PM; entrance 40,000 VND【640416865779021†L119-L137】."
+  },
+  {
+    "id": "ninh_binh_boat",
+    "name": "Ninh Binh Boat Ride", 
+    "categories": ["Nature", "Adventure"],
+    "description": "Take a rowboat through the limestone landscapes of Ninh Binh: choose Tam Coc (2 hours through three caves and rice fields, 150,000 VND per boat + 120,000 VND per person【276605019519282†L173-L211】), Trang An (2.5–3 hours through caves and temples, 200,000 VND per person【276605019519282†L219-L256】) or Van Long (wetlands with wildlife, 60,000 VND per boat + 20,000 VND entrance【276605019519282†L259-L271】)."
+  },
+  {
+    "id": "ha_long_bay",
+    "name": "Ha Long Bay Cruise", 
+    "categories": ["Nature", "Cruise"],
+    "description": "Cruise among over 1,600 limestone islands in Ha Long Bay, a UNESCO World Heritage site, with opportunities to visit caves, kayak and enjoy the scenery【643544036866725†L25-L80】.  September–November is an ideal time to visit【643544036866725†L61-L80】."
+  }
+]
