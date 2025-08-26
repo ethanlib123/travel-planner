@@ -1,0 +1,25 @@
+[
+  {
+    "country": "Vietnam",
+    "centers": [
+      {
+        "city": "Ho Chi Minh City",
+        "name": "Chabad of Saigon",
+        "address": "5A Nguyen Dinh Chieu St., District 1",
+        "notes": "Full Jewish community including large shul, mikvah, yeshiva day school, kosher restaurant and minimart【467894087942520†L174-L177】."
+      },
+      {
+        "city": "Hoi An",
+        "name": "Chabad Hoi An",
+        "address": "570A Cua Dai, Cam Chau",
+        "notes": "Hosts Shabbat services at sundown Friday and 10 AM Saturday; kosher restaurant on site【536991133636055†L70-L83】."
+      },
+      {
+        "city": "Hanoi",
+        "name": "Chabad Hanoi",
+        "address": "4/11 To Ngoc Van St., Tay Ho District",
+        "notes": "Kosher meals Sunday–Thursday 12 PM–7 PM; Shabbat meals and hospitality available【388266305453371†L294-L349】."
+      }
+    ]
+  }
+]
